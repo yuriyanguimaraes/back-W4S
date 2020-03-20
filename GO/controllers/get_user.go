@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"net/http"
-	"w4s/models"
+	"w4s/models"	
 )
 
 func FindUser(c *gin.Context) {
